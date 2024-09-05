@@ -1,0 +1,133 @@
+<!DOCTYPE html>   <!--define o idioma da pagina como inglês-->
+<html lang="en">  <!--define o idiona da pagina-->
+<head>  <!--contém metadados e configurações que não são exibidas na pagina-->
+    <meta charset="UTF-8">
+    
+    <title> pagina principal</title>
+
+    <style>
+      /* seletor universal */
+        *{ 
+            margin: 0;
+      }
+      
+      /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color: rgb(109, 0, 205);
+        }
+        
+        /* seletor de clsse */
+        .paragrafo{
+          background-color: rgb(235, 196, 255);
+          /* margin: 10px; - aplica em todas as margens */
+          /* margin: 10px 40px; - aplica nas margens 'laterais' e 'superior e inferior' */
+          /* margin: 10px 20px 30px 40px; aplicar margem top, right, bottom, left*/
+          margin-left: 10px;
+          /* alinhar os elementos no centro*/
+          text-align: center;
+        }
+
+        .imagem{
+          width: 100px;
+          height: 150px;
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(150, 58, 150);">
+    ola muundo
+    Bem-Vindo!
+    <!--Titulos de nivel 1 ao 6-->
+    <h1>cabeçalho de nivel 1</h1>
+    <h2>Cabeçalho de nivel 2 </h2>
+    <h3>cabeçalho de nivel 3</h3>
+    <h4>Cabeçalho de nivel 4 </h4>
+    <h5>cabeçalho de nivel 5</h5>
+    <h6>Cabeçalho de nivel 6 </h6>
+
+    <!--Insere uma linha na horinzontal-->
+    <hr>
+    <!-- A tag 'p' insere um novo paragrafo -->
+     <p>Este é um  paragrafo 
+       </p> Outro parágrafo </p>
+
+     <p>este é um texto muito grande,<br>
+        que eu desejo <br> quebrar a linha <p>
+
+         <!-- Inserindo um link para abrir uma pagina -->
+          <a href= "https://www.netflix.com/"> pagina do sesi </a>
+
+          <!-- Link com atributo_blank para abrir em outra janela -->
+          <a href="https://www.sp.senai.br/" target="_self">senai</a>
+
+          <!-- Aplicando link em uma imagem, abrinndo um link dentro da imagem --> 
+           <a href="https://www.sp.senai.br/"><img src="./sesi.jfif" ></a> 
+           <p style= "font-size: xx-large;"></p> Videos do youtube </p>
+           <iframe width="853" height="480" src="https://www.youtube.com/embed/VPtcAtAuuQE" title="Minions: The Rise of Gru | On Our Way" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+           <iframe width="332" height="590" src="https://www.youtube.com/embed/mxlAyVsvPlU" title="O GOL DO ROMERO QUE DEU A VITÓRIA PRO TIMÃO!!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+           <!-- aplicando css interno -->
+          <p class= "paragrafo">
+            logo do gif
+            <img class="imagem" src="./img/gif.gif" alt="">
+          </p>
+          <!-- Listas -->
+          <!-- Listas Ordenadas -->
+           <ol>
+            <li>Acordar</li>
+            <li>levantar cedo</li>
+            <li> tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Ir para escola no horario</li>
+           </ol>
+           <br>
+
+           <!-- listas ordenadas com letras maisculas -->
+           <ol type="A">
+            <li>Acordar</li>
+            <li>levantar cedo</li>
+            <li> tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Ir para escola no horario</li>
+           </ol>
+           <br>
+           <!-- lista ordenadas com numeros romanos minusculos -->
+           <ol type="i">
+            <li>Acordar</li>
+            <li>levantar cedo</li>
+            <li> tomar café</li>
+            <li>Escovar os dentes</li>
+            <li> Ir para escola no horario</li>
+           </ol>
+           <br> 
+           <!-- lista não ordenada -->
+           <ul>
+              <li>carvao</li>
+              <li>carne</li>
+              <li> bebidas</li>
+              <li>amigos</li>
+              <li> som</li>
+           <ul>
+
+            <!-- lista dentro de lista-->
+           <ul>
+              <li>carvao
+                <ul>
+                  <li> picanha</li>
+                  <li>cupim</li>
+                  <li> ponta de peito</li>
+              <ul>
+            <li> 
+        <ul>
+
+        <!-- Lista predefinida -->
+         <dl>
+          <dt>HTML</dt>
+          <DD>Linguagem de marcação para conteúdo de um site</DD>
+          <dt>CSS</dt>
+          <dd>Linguagem de estilização do site</dd>
+          <dt>Javascript</dt>
+          <dd>Linguagem de programação</dd>
+         </dl>
+    </body> 
+</html>
