@@ -4,37 +4,10 @@
     <meta charset="UTF-8">
     
     <title> pagina principal</title>
-
-    <style>
-      /* seletor universal */
-        *{ 
-            margin: 0;
-      }
-      
-      /* Seletor de tipo, aplicando em uma tag */
-        p{
-            color: rgb(109, 0, 205);
-        }
-        
-        /* seletor de clsse */
-        .paragrafo{
-          background-color: rgb(235, 196, 255);
-          /* margin: 10px; - aplica em todas as margens */
-          /* margin: 10px 40px; - aplica nas margens 'laterais' e 'superior e inferior' */
-          /* margin: 10px 20px 30px 40px; aplicar margem top, right, bottom, left*/
-          margin-left: 10px;
-          /* alinhar os elementos no centro*/
-          text-align: center;
-        }
-
-        .imagem{
-          width: 100px;
-          height: 150px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
-<body style="background-color: rgb(150, 58, 150);">
+<body >
     ola muundo
     Bem-Vindo!
     <!--Titulos de nivel 1 ao 6-->
@@ -129,5 +102,89 @@
           <dt>Javascript</dt>
           <dd>Linguagem de programação</dd>
          </dl>
+
+
+         <!-- trabalhando com tabelas -->
+         <br>
+         <hr>
+         <!-- criando uma nova tabela -->
+          <table border="1" >
+            
+            
+            <!-- tr cria uma nova linha -->
+             <tr>
+              <!-- th insere uma celula de cabeçalho -->
+               <th> Nome </th>
+               <th> idade </th>
+              <th> Profissão </th>
+             </tr>
+             <tr>
+              <!-- td cria uma nova celula de dados  -->
+               <td> vi </td>
+               <td> 16 </td>
+               <td> Estudante </td>
+             </tr>
+             <tr> </tr>
+              <!-- td cria uma nova celula de dados  -->
+               <td> gui </td>
+               <td> 22</td>
+               <td> Estudante </td>
+             </tr>
+          </table>
+
+        <table> 
+          <br>
+         
+          <!-- tag semantica de cabeçalho -->
+         </thead>
+         <tr> 
+          <td class="cabecalho cabecalho2"> Nome </td>
+          <td class="cabecalho cabecalho2"> Telefone </td>
+          <td class="cabecalho cabecalho2"> Cidade </td>
+         
+          
+         
+         </tr>
+        </thead>
+        <tbody>
+          <tr> 
+            <td class="celular cabecalho3"> carol eduarda </td>
+            <td class="celular cabecalho3"> (15) 9863-8936 </td>
+            <td class="celular cabecalho3"> Sorocaba </td>
+          </tr>
+          </tr>
+          <tr>
+            <td  class="celular"> Juliana silva </td>
+            <td  class="celular"> (19)9896-9636</td>
+            <td  class="celular"> Campinas </td>
+          </tr>
+          </tr>
+        </tbody>
+        </table>
+
+
+<table border="1">
+  <tr>
+    <th>nome</th>
+    <th colspan="2"> Telefone</th>
+  </tr>
+  <tr> 
+    <td> maya </td>
+    <td> (67)9635-8968</td>
+    <td> (17) 9683-7425</td>
+  </tr>
+<tr>
+  <td rowspan="2">jake </td>
+  <td> (18) 9986-6365</td>
+  <td> (18) 9985-6765</td>
+
+</tr>
+  <tr>
+    <td> (18)9863-8471</td>
+    <td> (18)9873-8563</td>
+  
+</tr>
+</table>
+
     </body> 
 </html>
