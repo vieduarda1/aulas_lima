@@ -186,5 +186,77 @@
 </tr>
 </table>
 
-    </body> 
+
+<table> 
+
+  <p> trabalhando com formulario </p>
+  <form class=" formulario">
+    <label >nome </label>
+    <!-- insere um campo digitavel do tipo texto  -->
+     <input type="text">
+    <br><label >sobrenome</label>
+     <input type="text" class="input-nome">
+
+     <!-- tipo senha -->
+      <br><label> Senha </label>
+      <input type="password" placeholder="digite a senha">
+      <input type="button" value="clique aqui" class="botao" >
+      <br>
+      <!-- incluindo checkboook(opções) -->
+       <input type="checkbox" class="checar"> eu tenho uma bike <br>
+       <input type="checkbox" class="checar"> eu tenho uma moto <br>
+       <input type="checkbox" class="checar"> eu tenho um carro <br>
+        
+       <!-- incluindo input de cor -->
+        <input type="color" value="#0000000">
+        <br><label> Data de nascimento</label>
+        <input type="date" name="" id = "">
+
+        <!-- tipo email -->
+         <br><input type="email" placeholder="digite seu email" class="email">
+
+         <!-- incluindo input para selecionar arquivo -->
+          <input type="file">
+
+        <!-- input de seleção -->
+         <select>
+          <!-- o atributo valeu, enviara o valor do intem selecionado para o servidor -->
+         <br><option value="" selected> selecione a escolaridade </option>
+          <option value="primeiro colegial">1º medio</option>
+          <option value="segundo colegial">2º medio</option>
+          <option value="terceiro colegial">3º medio</option>
+         </select>
+
+         <!-- input de seleção -->
+         <select class="selecao">
+          <!-- o atributo valeu, enviara o valor do intem selecionado para o servidor -->
+         <br><option value="" selected> selecione a escolaridade </option>
+          <option value="primeiro colegial">1º medio</option>
+          <option value="segundo colegial">2º medio</option>
+          <option value="terceiro colegial">3º medio</option>
+         </select>
+
+         <!-- criando input radio button -->
+          <p> radio button</p>
+          <br><input type="radio" name=" tamnho "> pequeno
+          <br><input type="radio" name=" tamnho" checked> medio
+          <br><input type="radio" name="tamnho"> grande
+          <br><input type="radio" name="tamnho"> outra
+
+          <!-- cria um grupo de componetes -->
+          <fieldset>
+            <legend>Descrição</legend>
+            <textarea name="" id="">
+
+            </textarea>
+          </fieldset>
+
+          <!-- botao de enviar -->
+           <input type="submit" value="Enviar">
+
+           <!-- botao de limpar ou resetar -->
+            <input type="reset" value="Limpar">
+
+        </form>
+        </body> 
 </html>
