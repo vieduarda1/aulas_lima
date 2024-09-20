@@ -4,32 +4,73 @@
     <meta charset="UTF-8">
     
     <title> pagina principal</title>
-    Olá seja- bem vindo 
-
-    <p> cadastro usuario </p>
-  <form class=" formulario">
-    <label >nome </label>
     
-     <input type="text">
-    <br><label >sobrenome</label>
-     <input type="text" class="input-nome">
+    <style>
+        .titulo {
+            font-size: 30px;
+        }
+        .formulario{
+            background-color: rgb(143, 48, 233);
+        }
 
-    
-      <br><label> Senha </label>
-      <input type="password" placeholder="digite a senha">
-      <input type="button" value="clique aqui" class="botao" >
-      <br>
-     
-       <input type="checkbox" class="checar"> sexo feminino <br>
-       <input type="checkbox" class="checar"> sexo masculino <br>
-       <input type="checkbox" class="checar"> prefiro não dizer <br>
-        
-       <!-- incluindo input de cor -->
-        <input type="color" value="#0000000">
-        <br><label> Data de nascimento</label>
+        .cdusuario{
+          background-color:rgb(120, 54, 182) ;
+        }
+    </style>
+    </head>
+    <body class="cdusuario">
+     <p class="titulo"> Cadastro de usuário </p>
+  
+     <form class=" formulario">
+       <label> Nome completo </label>
+       <input type="password" >
+        <br>
+       <br><label>Email </label>
+   
+       <input type="password" placeholder="digie seu email">
+       <br>
+   
+       <br><label> Data de nascimento</label>
         <input type="date" name="" id = "">
+        <br>
+        
+       <br> <label> Telefone </label>
+        <input type="password" >
+        
+        <br>
+        <br>
+        <select class="selecao">
+     
+           <option value="selecao" selected> selecione o sexo </option>
+            <option value="mulher">Feminino</option>
+            <option value="homem">Masculino</option>
+            <option value="outros">prefiro não dizer</option>
+            </select>
 
+         <p> Endereço: </p>
+         <label> Rua</label> 
+         <input type="password">
+         <label> Número</label> 
+         <input type="password">
+         <br>
+         <br><labe>Bairro </label>
+            <input type="password">
+            <label> Complemento</label>
+            <input type="password">
+        <br>
+        <br><label>Cidade</label>
+        <input type="password">
+        <br>
+        <br><label> Senha </label>
+        <input type="password" placeholder="digie sua senha">
+        
+         <label>Confirmar senha </label>
+         <input type="password" placeholder="digite a senha novamente">
+         <br>
+         <a href="login.html">Cadatrar</a>
+         <br>
+         <a href="index1.html">Cancelar</a>
 
-
-</head>
+  </form>
 <body>
+</html>

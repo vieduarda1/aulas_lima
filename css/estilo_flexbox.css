@@ -1,0 +1,25 @@
+.div1{
+    background-color: antiquewhite;
+}
+.div2{
+    background-color: rgb(208, 96, 216);
+}
+.div3{
+    background-color: rgb(130, 233, 168);
+}
+
+.container{
+    border: 2px solid cornflowerblue;
+    /* Limita o tamnho do elemento */
+    max-width: 400;
+    margin: 0 auto;
+    display: flex;
+    /* Define o tamanho do elemento e o espaço entre eles */
+}
+
+.item{
+    background-color: bisque;
+    margin: 5px;
+    text-align: center;
+    color: rgb(37, 96, 96);
+}
