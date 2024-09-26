@@ -11,7 +11,7 @@
 .container{
     border: 2px solid cornflowerblue;
     /* Limita o tamnho do elemento */
-    max-width: 400;
+    max-width: 400px;
     margin: 0 auto;
     display: flex;
     /* Define o tamanho do elemento e o espaço entre eles */
@@ -23,3 +23,87 @@
     text-align: center;
     color: rgb(37, 96, 96);
 }
+
+.flex{
+    display: flex;
+    /* define a direção dos elementos  */
+    flex-direction: column;
+}
+
+.imagem{
+    height: 50px ;
+    width: 50px;
+}
+
+.div-coluna{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(38, 77, 150);
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    /* coloca um espaço entre os  */
+    gap: 10px;
+}
+
+.secao-imagem{
+    width: 150px;
+    height: 150px;
+}
+
+
+.alinhar-esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.alinhar-centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alinhar-direita{
+    display: flex;
+    flex-direction: row;
+    /* alinhar os elementos ao centro */
+    justify-content: flex-end
+}
+
+.alinhar-entre{
+    display: flex;
+    flex-direction: row;
+    /* aloca os elementos nas pontas e ajusta os elementos no centro */
+    justify-content: space-between;
+}
+
+.alinhar-redor{
+    display: flex;
+    flex-direction: row;
+    /* distribui os itens com espaço ao redor deles */
+    justify-content: space-around;
+}
+
+.alinhar-coluna{
+    display: flex;
+    flex-direction: column;
+    /* distribui os itens com espaço ao redor deles */
+    align-items: center;
+        width: 100%;
+    background-color: blueviolet;
+}
+
+.alinhar-itens-centro{
+    display: flex;
+    flex-direction: column;
+    /* distribui os itens com espaço ao redor deles */
+    height: 200px;
+    background-color: rgb(142, 60, 230);
+    align-items: center;
+    justify-content: space-between;
+}
+
