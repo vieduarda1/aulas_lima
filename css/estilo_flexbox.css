@@ -102,70 +102,8 @@
     flex-direction: column;
     /* distribui os itens com espaço ao redor deles */
     height: 200px;
-    background-color: rgb(142, 60, 230);
-    align-items: center;
-    justify-content: space-between;
-}
 
-.container_card{
-    display: flex;
-    flex-direction: row;
-    gap: 0.4rem;
-}
-.card{
-    width: 300px;
-    border:1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
-    font-family: Arial, Helvetica, sans-serif;
-    /* define configurações da transição */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.card:hover{
-    /* transform: translateZ(10); */
-    transform: scale(1.05);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4)
-}
-.cabecalho_card{
-    padding: 10px;
-    text-align: center;
-}
-.titulo_card{
-    margin: 0;
-    font-size: 1.5rem;
-    color: #333;
-}
-.subtitulo_card{ 
-    margin: 0;
-    font-size: 1rem;
-    color: #777;
-}
-.imagem_card{
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.imagem_card > img{
-    max-width: 100%; /* Mantem um limite máximo de tamanho do container*/
-    height: 200px; /* mantém a proporção da imagem */
-}
-.imagem_card > figcaption{
-    font-size:  0.8rem;
-    padding: 8px;
-    text-align: center;
-    color: #555;
-
-}
-.conteudo_card{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-   gap: 0.4rem;
-   height: 500px;
-}
+    
 .rodapé-card{
     background-color: #7d7a7a;
     text-align: center;

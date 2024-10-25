@@ -99,7 +99,7 @@ body{
 
 .banner-imagens{
     /*definir largura maxima */ 
-    max-width: 45%;
+    max-width: 50%;
     /* Exibir as imagens 4 colunas */
     column-count: 4;
 }
@@ -108,4 +108,151 @@ body{
     width: 100%;
     border-radius: 5px;
     
+}
+
+/* criando scrool para cads */
+.card-novo{
+    display: flex;
+    overflow: scroll;
+    gap: 3rem;
+    margin: auto;
+    max-width: 1120px;
+}
+
+/* removendo a barra de scroll */
+.card-novo::-webkit-scrollbar{
+    display: none;
+    
+}
+
+.receitas{
+    /*organizando em colunas  */
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 2.5rem 2rem;
+}
+
+.cabecalho-card{
+    background-color: #534753;
+    padding: 5px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+
+.card{
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px rgba(255,255,255,0.7);
+    max-width: 260px;
+}
+
+.rodape-card{
+    background-color: #534753;
+    padding: 3px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+button{
+    width: 80px;
+    background-color: #A45A49;
+    color: #f7dcf7;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+/* Mapa */
+.mapa{
+    max-width: 1120px;
+    width: 600px;
+    height: 400px;
+
+    /* aplica papael de parede a nossa div */
+    background-image: url('../img/mapa.png');
+    background-repeat: no-repeat;
+    /* aplica tamanho da imagem em todo o espaço */
+    background-size: cover;
+    margin: 20px auto;
+    position: relative;
+
+
+}
+
+.icone{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: coral;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7dcf7;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.icone1{
+  top: 40px;
+  left: 100px;
+}
+
+.icone2{
+    top: 150px;
+    left: 220px;
+}
+
+/* criando um elemento que não ira aparecer na tela */
+.div-hover{
+    /* escondendo a imagem */
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+}
+
+.icone:hover.div-hover{
+    /* mostrando a imagem */
+    display: block;
+    position: fixed;
+    top: 15%;
+    left: 37%;
+    
+}
+
+/* Estilização melhores valiados */
+
+.container-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+.item-galeria{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: bisque;
+}
+
+.item-galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3 ease;
+}
+
+.item-galeria img:hover{
+    transform: scale(1.1);
 }

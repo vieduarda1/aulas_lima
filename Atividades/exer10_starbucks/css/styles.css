@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* Assegura que padding e margin sejam incluidos nas dimensões totais do elemento*/
+    box-sizing: border-box;
+}
+
+.logo{
+    font-family: Teko;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+
+
+nav{
+width: 100%;
+margin: 1rem;
+background-color: rgb(255, 255, 255);
+padding: 0.5cm;
+
+
+
+}
+.menu{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   gap: 2rem;
+
+}
+ul{
+display: flex;
+gap: 1.5rem;
+
+}
+li{
+    list-style: none;
+}
+
+.banner-starbucks{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+.acessar{
+    color: #A45A49;
+}
+
+.banner-starbucks{
+    max-width: 1220px;
+    height: 60vh;
+    margin: auto;
+
+}
+
+.banner-starbucks >img{
+    width: 100%;
+    box-shadow:10px rgba(0, 0, 0.5);
+    border-radius: 2px;
+    
+
+}
+
+body{
+    color: hsl(#ffffff);
+    background-color: #ffffff;
+}
+.card-1{
+    background-color: rgb(126, 189, 168);
+    height: 15vh;
+    font-size: 150%;
+}
+
